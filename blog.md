@@ -7,7 +7,7 @@
   
   
 ### What are you excited or eager to learn more about?
- * I'm excited to learn more about css and all the tools to create a wesites style. I am also looking forward to learning about javascript git/github even though I struggle with them.
+ * I'm excited to learn more about css and all the tools to create a websites style. I am also looking forward to learning about javascript git/github even though I struggle with them.
 
 ### What is something about you that can only be learned by reading this blog?
 * By reading this blog, you can learn about my journey of learning web developement and the obstacles I encounter and how I will overcome them. You can also get a better feel for the type of person I am.
