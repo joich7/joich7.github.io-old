@@ -11,3 +11,17 @@
 
 ### What is something about you that can only be learned by reading this blog?
 - By reading this blog, you can learn about my journey of learning web developement and the obstacles I encounter and how I will overcome them. You can also get a better feel for the type of person I am.
+
+## 2<sup>nd</sup> blog post *(1/26/23)*
+
+### What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?
+- HTML is used as the layout for a webpage, CSS is used to style and postion the content on a webpage, and Javascript can be used for inteactivity to make the users experiece better.
+
+### What are your thoughts on pseudocoding?
+- It's hard to get used to pseudocoding, but I know that it is a skill that I must develope to create structured and organised code. 
+### What was helpful during Onboarding working remotely?
+- It was nice having someone alsways on standby to help me when I had a question. 
+### What hindered your progress during Onboarding?
+- Not much, maybe just not having enough time to catch up on the previose days material.
+
+[Click here to Preview Webpage Blog](blog-post-sprint-2.html)
