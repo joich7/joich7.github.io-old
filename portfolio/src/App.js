@@ -1,17 +1,17 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+
 import "./App.css";
-import Footer from "./components/Footer";
+import Footer from "./components/layout/Footer";
 import About from "./components/About";
+import Navbarfun from "./components/layout/Navbarfun";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <About />
+      <Navbarfun />
+      <p>Home page </p>
       <Footer />
     </div>
-
   );
 }
 
