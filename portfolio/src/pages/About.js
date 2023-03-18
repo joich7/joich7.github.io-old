@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../logo.svg";
-import Navbarfun from "./layout/Navbarfun";
+import Navbarfun from "../components/layout/Navbarfun";
+import Footer from "../components/layout/Footer";
 export default function About() {
   return (
     <>
@@ -54,6 +55,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -1,8 +1,9 @@
 import React from "react";
+import "../../css/colors.css";
 
 export default function () {
   return (
-    <footer className="text-center text-lg-start bg-dark text-muted">
+    <footer className="text-center text-lg-start text-white faded-Dark">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div>
           <a href="" className="me-4 link-secondary">
@@ -97,10 +98,7 @@ export default function () {
         </div>
       </section>
 
-      <div
-        className="text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
-      ></div>
+   
     </footer>
   );
 }

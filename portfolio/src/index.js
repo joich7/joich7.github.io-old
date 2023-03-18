@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./components/About";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About/>,
-  }
+    element: <About />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
