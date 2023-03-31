@@ -21,6 +21,9 @@ export default function Navbarfun() {
             <Nav.Link as={Link} to={"/blogposts"}>
               <h1 className="">BLOG</h1>
             </Nav.Link>
+            <Nav.Link as={Link} to={"/projects"}>
+              <h1 className="">PROJECTS</h1>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

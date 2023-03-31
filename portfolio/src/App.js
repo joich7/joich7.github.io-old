@@ -5,6 +5,7 @@ import About from "./pages/About";
 
 import Homepage from "./pages/Homepage";
 import BlogPosts from "./pages/BlogPosts";
+import Projects from "./pages/Projects";
 function App() {
   const router = createBrowserRouter([
     {
@@ -20,8 +21,9 @@ function App() {
       element: <BlogPosts />,
     },
     {
-      path: "/blogposts"
-    }
+      path: "/projects",
+      element: <Projects />,
+    },
   ]);
 
   return (
