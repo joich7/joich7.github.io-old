@@ -36,12 +36,13 @@ export default function BlogPosts() {
   return (
     <>
       <Navbarfun />
-
-      <div className="container p-3">
-        <div className="row">
-          {content.map((blog) => (
-            <BlogComp text={blog.text} title={blog.title} />
-          ))}
+      <div className="app_image h-auto min-vh-100">
+        <div className="container p-3">
+          <div className="row">
+            {content.map((blog) => (
+              <BlogComp text={blog.text} title={blog.title} />
+            ))}
+          </div>
         </div>
       </div>
       <Footer />

@@ -19,6 +19,9 @@ function App() {
       path: "/blogposts",
       element: <BlogPosts />,
     },
+    {
+      path: "/blogposts"
+    }
   ]);
 
   return (
