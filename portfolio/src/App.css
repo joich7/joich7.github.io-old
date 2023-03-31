@@ -35,6 +35,14 @@
   color: black;
   text-shadow: 0px 0px 15px #04d2f7;
 }
+.faded-Dark{
+  background-color: rgba(33, 37, 41, .9);
+}
 
+.row .card-body{
+  border: 2px solid  #04d2f7;
+  background-color:  rgba(33, 37, 41, .9);
+  color: white;
+}
 
 
