@@ -1,26 +1,29 @@
 import "./App.css";
-import Footer from "./components/layout/Footer";
 
-import Navbarfun from "./components/layout/Navbarfun";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./pages/About";
 
+import Homepage from "./pages/Homepage";
+import BlogPosts from "./pages/BlogPosts";
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Homepage />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/blogposts",
+      element: <BlogPosts />,
+    },
+  ]);
+
   return (
     <>
-      <Navbarfun />
-      <div className="app_image ">
-        <div className="h-auto min-vh-100">
-          <div id="start" className="row align-items-end m-auto text-white">
-            <div className="col-12 text-center">
-              <div className="ms-5 ">
-                <h1 className="">Josiah Charley</h1>
-
-                <h2>Web Developer</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <Footer />
-      </div>
+      <RouterProvider router={router} />
     </>
   );
 }

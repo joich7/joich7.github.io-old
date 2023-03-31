@@ -1,3 +1,5 @@
+
+
 .app_image{
   
   background-image: url(./images/synthwaveBackground.jpg);
@@ -11,3 +13,28 @@
 #start{
   height: 55vh;
 }
+
+.retro-text{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.gradient-text{
+  
+  background-image:
+    linear-gradient(90deg,#F2D544,#F27E63,#fd2689);
+    background-clip: text;
+    color: transparent;
+  
+  }
+
+.gradient-text h1{
+  color: transparent;
+}
+
+.shadowglow{
+  color: black;
+  text-shadow: 0px 0px 15px #04d2f7;
+}
+
+
+

@@ -15,14 +15,14 @@ export default function About() {
             {/*removed zig class */}
             <div className="text-center">
               <h2>About Me</h2>
-              <p>
+              <p className="retro-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
                 tenetur reprehenderit eos porro nam repellendus corrupti
                 consectetur laborum? Veniam assumenda dicta deleniti quo quos
                 nam quisquam voluptate esse corporis alias.
               </p>
               <ul>
-                <li>Fixing up old vehicles</li>
+                <li className="retro-text">Fixing up old vehicles</li>
                 <li>Playing video games</li>
                 <li>playing with my dog</li>
               </ul>
